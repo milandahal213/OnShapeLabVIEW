@@ -13,19 +13,19 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="chi.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/chi.vi"/>
-		<Item Name="Compress Chunk.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Compress Chunk.vi"/>
-		<Item Name="Extend Chunk into Schedule.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Extend Chunk into Schedule.vi"/>
-		<Item Name="Hexlify.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Hexlify.vi"/>
-		<Item Name="ma.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/ma.vi"/>
-		<Item Name="Prepare Input Buffer.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Prepare Input Buffer.vi"/>
-		<Item Name="Sigma0.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Sigma0.vi"/>
-		<Item Name="Sigma1.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Sigma1.vi"/>
+		<Item Name="chi.vi" Type="VI" URL="../chi.vi"/>
+		<Item Name="Compress Chunk.vi" Type="VI" URL="../Compress Chunk.vi"/>
+		<Item Name="Extend Chunk into Schedule.vi" Type="VI" URL="../Extend Chunk into Schedule.vi"/>
+		<Item Name="Hexlify.vi" Type="VI" URL="../Hexlify.vi"/>
+		<Item Name="ma.vi" Type="VI" URL="../ma.vi"/>
+		<Item Name="Prepare Input Buffer.vi" Type="VI" URL="../Prepare Input Buffer.vi"/>
+		<Item Name="Sigma0.vi" Type="VI" URL="../Sigma0.vi"/>
+		<Item Name="Sigma1.vi" Type="VI" URL="../Sigma1.vi"/>
 	</Item>
 	<Item Name="Hash File with SHA-256.vi" Type="VI" URL="../Hash File with SHA-256.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Hash string to byte array.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Hash string to byte array.vi"/>
-	<Item Name="Hash String with SHA-256.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/Hash String with SHA-256.vi"/>
-	<Item Name="HMAC-SHA256.vi" Type="VI" URL="/&lt;userlib&gt;/Onshape/_SubVI/SHA256/HMAC-SHA256.vi"/>
+	<Item Name="Hash string to byte array.vi" Type="VI" URL="../Hash string to byte array.vi"/>
+	<Item Name="Hash String with SHA-256.vi" Type="VI" URL="../Hash String with SHA-256.vi"/>
+	<Item Name="HMAC-SHA256.vi" Type="VI" URL="../HMAC-SHA256.vi"/>
 </Library>
