@@ -1,5 +1,15 @@
 #!/usr/bin/env pybricks-micropython
 #brickrun -r -- pybricks-micropython
+
+
+
+'''
+connect motors to 
+x- port A
+y- port B
+z- port C
+touch sensor - port 1
+'''
 from pybricks.hubs import EV3Brick
 from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.parameters import Color, Port
@@ -50,3 +60,4 @@ while True:
         wait(100)
         break
     wait(100)
+    
